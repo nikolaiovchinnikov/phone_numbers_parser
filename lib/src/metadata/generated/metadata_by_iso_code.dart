@@ -974,7 +974,7 @@ const metadataByIsoCode = {
   IsoCode.KZ: PhoneMetadata(
     countryCode: r"7",
     isoCode: IsoCode.KZ,
-    leadingDigits: r"70|71|72|73|74|75|76|77",
+    leadingDigits: r"0[0-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9]|6[0-9]|7[0-9]",
     internationalPrefix: r"810",
     nationalPrefix: r"8",
     isMainCountryForDialCode: false,
