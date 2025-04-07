@@ -112,7 +112,7 @@ abstract class MetadataFinder {
     // otherwise the phone number starts with leading digits of metadata
     for (var fit in potentialFits) {
       final leadingDigits = fit.leadingDigits;
-      if (leadingDigits != null && nationalNumber.startsWith(leadingDigits)) {
+      if (leadingDigits != null && nationalNumber.startsWith(RegExp(leadingDigits))) {
         return fit;
       }
     }
