@@ -972,9 +972,9 @@ const metadataByIsoCode = {
     isMainCountryForDialCode: false,
   ),
   IsoCode.KZ: PhoneMetadata(
-    countryCode: r"70|71|72|73|74|75|76|77",
+    countryCode: r"7",
     isoCode: IsoCode.KZ,
-    leadingDigits: r"33|7",
+    leadingDigits: r"70|71|72|73|74|75|76|77",
     internationalPrefix: r"810",
     nationalPrefix: r"8",
     isMainCountryForDialCode: false,
